@@ -62,4 +62,4 @@ class GaussJordan:
                 factor = self.x[k, pivot_col]
                 self.x[k] = self.x[k] - factor * self.x[i]
             
-            return 1 # SOLUCION UNICA
+        return 1 # SOLUCION UNICA
